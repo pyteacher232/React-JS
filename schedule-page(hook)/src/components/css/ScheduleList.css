@@ -1,0 +1,138 @@
+.main-content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -167px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content-column1{
+    margin-left: 195px;
+    /* margin-right: auto; */
+    width: 1599px;
+    height: 100%;
+    border-radius: 17px;
+    border-radius: 17px;
+    background-color: white;
+}
+
+.timeline-header{
+    width: 100%;
+    height: 174px;
+}
+
+.timeline-header *{
+    margin-left: 63px;
+    padding-top: 60px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36pt;
+    letter-spacing: -1px;
+}
+
+.main-content-column2{
+    margin-left: 82px;
+    /* margin-right: auto; */
+    width: 776px;
+    height: 100%;
+    border-radius: 17px;
+    background-color: white;
+}
+
+.service-providers{
+    width: 100%;
+    height: 726px;
+    /* background-color: #2624aa; */
+}
+
+.service-providers-header{
+    width: 100%;
+    height: 174px;
+    /* background-color: #0add15; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-providers-header > div:nth-child(1){
+    margin-top: 59px;
+    margin-left: 65px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36pt;
+    letter-spacing: -1px;
+}
+
+.service-providers-header >div:nth-child(2){
+    margin-top: 59px;
+    margin-right: 73px;
+}
+
+
+.item-list{
+    width: 100%;
+    height: 586px;
+    /* background-color: #ac1862; */
+    display: grid;
+    grid-template-columns: 171px 474px auto;
+    grid-auto-rows: 189px;
+}
+
+
+.resources{
+    width: 100%;
+    height: 551px;
+    margin-top: 100px;
+    /* background-color: #2624aa; */
+}
+
+.resources-header{
+    width: 100%;
+    height: 174px;
+    /* background-color: #0add15; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resources-header > div:nth-child(1){
+    margin-top: 53px;
+    margin-left: 64px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36pt;
+    letter-spacing: -1px;
+}
+
+.resources-header >div:nth-child(2){
+    margin-top: 54px;
+    margin-right: 77px;
+}
+
+
+.item-info {
+    padding: 12px 41px 0px;
+}
+.item-info> div:nth-child(1){
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -1px;
+}
+
+.item-info> div:nth-child(2){
+    padding: 13px 0px;
+    color: #aaaaaa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    letter-spacing: -1px;
+}
+
+.group-icon{
+    margin-left: 24px;
+    margin-top: 32px;
+}
+
+div[id="0"]{
+    display: none;
+}

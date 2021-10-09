@@ -1,0 +1,3 @@
+export const SELECT_ITEM = "SELECT_ITEM";
+
+export const DISPLAY_API_DATA = 'DISPLAY_API_DATA';
