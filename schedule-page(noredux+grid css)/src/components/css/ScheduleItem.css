@@ -1,0 +1,130 @@
+.timeline-list{
+    width: 1600px;
+    height: 2510px;
+    display: grid;
+    grid-template-columns: 242px 215px 1011px;
+    row-gap: 7px;
+    grid-auto-rows: 278px;
+}
+
+.round {
+    margin-left: 6px;
+    position: relative;
+    width: 76px;
+    height: 76px;
+}
+
+.round label {
+    position: absolute;
+    left: 97px;
+    top: 70px;
+
+    height: 76px;
+    width: 76px;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.round label:after {
+    position: absolute;
+    left: 16px;
+    top: 21px;
+    
+    height: 18px;
+    width: 38px;
+
+    border: 7px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    opacity: 0;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked+label:after {
+    opacity: 1;
+}
+
+.progress-line{
+    position: absolute;
+    left: 136px;
+    bottom: 7px;
+    width: 5px;
+    height: 201px;
+    background-color: #aaaaaa;
+}
+
+.schedule-date{
+    margin-left: 11px;
+    margin-top: 0px;
+    width: 198px;
+    height: 227px;
+}
+
+.schedule-date{
+    /* background-color: white; */
+    /* color: black; */
+    cursor: pointer;
+}
+
+.schedule-date > div:nth-child(1){
+    padding: 55px 63px 0px;
+    width: 81px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 51pt;
+    justify-content: center;
+    text-align: center;
+}
+
+.schedule-date > div:nth-child(2){
+    padding: 0px 66px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31pt;
+}
+
+.schedule-info{
+    margin-left: 71px;
+    margin-top: 14px;
+    height: 153px;
+    width: 1000px;
+    cursor: pointer;
+}
+
+.schedule-info > div:nth-child(1){
+    padding: 44px 0px 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    font-stretch: normal;
+    color: black;
+}
+
+.schedule-info > div:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29pt;
+    font-stretch: normal;
+}
+
+.round:first-child > .progress-up-line, .round:last-child > .progress-down-line{
+    display: none;
+}
+
+.round.select > .progress-up-line{
+    background-color: #0091ff;
+}
+.round.select > .progress-down-line{
+    background-color: #0091ff;
+}
+
+.round.select input[type="checkbox"]:checked+label {
+    background-color: #0091ff;
+    border-color: #0091ff;
+}

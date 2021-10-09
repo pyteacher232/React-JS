@@ -1,0 +1,12 @@
+[role="button"] {
+    padding: 2px;
+    background-color: white;
+    color: navy;
+    cursor: default;
+  }
+  [role="button"]:hover,
+  [role="button"]:focus,
+  [role="button"]:active {
+    background-color: navy;
+    color: white;
+  }
